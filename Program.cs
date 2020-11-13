@@ -46,7 +46,10 @@ namespace EnthusiasticMoose
             ");
             Console.Write(":");
             string answer = Console.ReadLine();
-            Number(); 
+            if (answer != "")
+            {
+                Number();
+            }
         }
 
         static void Number() {
@@ -136,6 +139,8 @@ namespace EnthusiasticMoose
             {
                 Console.WriteLine("You may rely on it.");
             }
+
+            AskMoose("Ask me another!");
         }
     }
 }
