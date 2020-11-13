@@ -54,7 +54,7 @@ namespace EnthusiasticMoose
 
         static void Number() {
             Random r = new Random();
-            int genRand= r.Next(1,20);
+            int genRand= r.Next(1,21);
             Reply(genRand);
         }
 
